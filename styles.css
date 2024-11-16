@@ -127,6 +127,7 @@ body {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .mission-items {
@@ -183,9 +184,24 @@ body {
 }
 
 .meet-the-board h2 {
-  color: #FF7E00;
+  background-image: linear-gradient(#FFD0A3, #FF7E00);
+  color: transparent;
+  background-clip: text;
   margin-bottom: 30px;
   font-size: 36px;
+  position: relative; /* Needed for the ::after pseudo-element */
+  display: inline-block; /* Ensure it wraps only the text content */
+}
+
+.meet-the-board h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust distance from the text */
+  height: 2px; /* Thickness of the underline */
+  width: 100%; /* Match the width of the text */
+  background: linear-gradient(#FFD0A3, #FF7E00); /* Match the text gradient */
+  display: block; /* Ensures the underline is treated as a block element */
 }
 
 .board-members {
@@ -198,7 +214,8 @@ body {
 
 .member-card {
   background-color: white;
-  color: #333;
+  color: #004d40;
+  font-size: bold;
   width: 220px;
   border-radius: 10px;
   overflow: hidden;
@@ -215,8 +232,9 @@ body {
 }
 
 .member-card h3 {
-  color: #004d40;
+  color: #FF7E00;
   margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 /* Board Departments*/
@@ -250,14 +268,16 @@ body {
 }
 
 .department-card h3 {
-  color: #004d40;
+  color: #FF7E00;
   margin-bottom: 5px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .department-card p {
   font-size: 14px;
-  color: #666;
+  color: #004d40;
+  font-size: bold;
 }
 
 .footer {
