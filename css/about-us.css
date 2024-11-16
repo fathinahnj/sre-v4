@@ -2,7 +2,7 @@
   font-family: 'Open Sauce One Light';
   font-style: normal;
   font-weight: normal;
-  src: local('Open Sauce One Light'), url('./assets/font/OpenSauceOne-Light.woff') format('woff');
+  src: local('Open Sauce One Light'), url('../assets/font/OpenSauceOne-Light.woff') format('woff');
   }
   
 * {
@@ -19,7 +19,7 @@ body {
 
 /* Hero */
 .hero {
-  background: url('./assets/img/get-to-know.png') no-repeat center center/cover;
+  background: url('../assets/img/get-to-know.png') no-repeat center center/cover;
   height: 600px;
   display: flex;
   align-items: center;
@@ -189,19 +189,18 @@ body {
   background-clip: text;
   margin-bottom: 30px;
   font-size: 36px;
-  position: relative; /* Needed for the ::after pseudo-element */
-  display: inline-block; /* Ensure it wraps only the text content */
-}
+  position: relative; 
+  display: inline-block; 
 
 .meet-the-board h2::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -5px; /* Adjust distance from the text */
-  height: 2px; /* Thickness of the underline */
-  width: 100%; /* Match the width of the text */
-  background: linear-gradient(#FFD0A3, #FF7E00); /* Match the text gradient */
-  display: block; /* Ensures the underline is treated as a block element */
+  bottom: -5px;
+  height: 2px;
+  width: 100%; 
+  background: linear-gradient(#FFD0A3, #FF7E00);
+  display: block; 
 }
 
 .board-members {
@@ -297,7 +296,7 @@ body {
   right: 0;
   width: 300px;
   height: 300px;
-  background-image: url('./assets/logo/kincir-background.png'); 
+  background-image: url('../assets/logo/kincir-background.png'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
