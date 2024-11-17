@@ -75,7 +75,7 @@ p {
 /* recruitment */
 /* Styling the banner background and positioning */
 .recruitment-banner {
-  background-image: url("/src/recruitment-bg.png");
+  background-image: url("/SRE new/src/recruitment-bg.png");
   background-size: cover;
   background-position: center;
   height: 90vh; /* Full-screen height */
@@ -227,7 +227,7 @@ p {
 }
 .latestAchievement {
   padding: 50px;
-  background-image: url("/src/bg.png");
+  background-image: url("/SRE new/src/bg.png");
   text-align: center;
   color: white;
 }
