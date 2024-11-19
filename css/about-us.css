@@ -38,7 +38,7 @@ body {
 
 .hero h1 {
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   font-weight: bold;
 }
@@ -178,7 +178,7 @@ body {
 /*Board*/
 .meet-the-board {
   background-color: #004d40;
-  color: white;
+  color: #f8f8f8;
   padding: 50px;
   text-align: center;
 }
@@ -191,6 +191,7 @@ body {
   font-size: 36px;
   position: relative; 
   display: inline-block; 
+}
 
 .meet-the-board h2::after {
   content: "";
@@ -212,7 +213,7 @@ body {
 }
 
 .member-card {
-  background-color: white;
+  background-color: #f8f8f8;
   color: #004d40;
   font-size: bold;
   width: 220px;
