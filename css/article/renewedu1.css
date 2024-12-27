@@ -1,0 +1,45 @@
+.navbar {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+  width: 35px;
+}
+
+.article-img {
+  display: flex;
+  justify-content: center;
+}
+
+.article-img img {
+  height: 80vh;
+  border: solid 0px;
+  border-radius: 20px;
+}
+
+.article-text {
+  margin-bottom: 10vh;
+}
+
+.article-text p {
+  text-indent: 60px;
+  text-align: justify;
+}
+
+.article-text small {
+  display: block;
+  text-indent: -60px;
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .article-img img {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-img img {
+    height: 25vh;
+  }
+}
