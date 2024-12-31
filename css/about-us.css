@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: normal;
   src: local('Open Sauce One Light'), url('../assets/font/OpenSauceOne-Light.woff') format('woff');
-  }
-  
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -55,19 +55,19 @@ body {
 }
 
 .core-value-logo {
-  width: 300px; 
-  height: 300px; 
-  margin: auto; 
+  width: 300px;
+  height: 300px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .core-value-logo img {
-  width: 100%; 
+  width: 100%;
   height: auto;
-  object-fit: contain; 
-} 
+  object-fit: contain;
+}
 
 .core-values-list {
   display: flex;
@@ -116,14 +116,16 @@ body {
   color: white;
 }
 
-.vision h2, .mission h2 {
+.vision h2,
+.mission h2 {
   color: #FF7E00;
   font-size: 28px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-.vision p, .mission p {
+.vision p,
+.mission p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 30px;
@@ -133,10 +135,12 @@ body {
 .mission-items {
   display: flex;
   flex-direction: column;
-  gap: 30px; 
+  gap: 30px;
 }
 
-.mission-1, .mission-2, .mission-3 {
+.mission-1,
+.mission-2,
+.mission-3 {
   display: flex;
   align-items: center;
   background-color: white;
@@ -157,7 +161,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
 .mission-content h3 {
@@ -177,7 +181,7 @@ body {
 
 /*Board*/
 .meet-the-board {
-  background-color: #004d40;
+  background-color: white;
   color: #f8f8f8;
   padding: 50px;
   text-align: center;
@@ -189,8 +193,8 @@ body {
   background-clip: text;
   margin-bottom: 30px;
   font-size: 36px;
-  position: relative; 
-  display: inline-block; 
+  position: relative;
+  display: inline-block;
 }
 
 .meet-the-board h2::after {
@@ -199,9 +203,9 @@ body {
   left: 0;
   bottom: -5px;
   height: 2px;
-  width: 100%; 
+  width: 100%;
   background: linear-gradient(#FFD0A3, #FF7E00);
-  display: block; 
+  display: block;
 }
 
 .board-members {
@@ -213,7 +217,7 @@ body {
 }
 
 .member-card {
-  background-color: #f8f8f8;
+  background-color: #faf7f5;
   color: #004d40;
   font-size: bold;
   width: 220px;
@@ -234,20 +238,19 @@ body {
 .member-card h3 {
   color: #FF7E00;
   margin-bottom: 5px;
-  text-decoration: underline;
 }
 
 /* Board Departments*/
 .board-departments {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 30px; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
   padding: 50px;
-  background-color: #004d40;
+  background-color: white;
 }
 
 .department-card {
-  background-color: white;
+  background-color: #faf7f5;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -297,7 +300,7 @@ body {
   right: 0;
   width: 300px;
   height: 300px;
-  background-image: url('../assets/logo/kincir-background.png'); 
+  background-image: url('../assets/logo/kincir-background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -325,21 +328,25 @@ body {
   .board-departments {
     display: flex;
     flex-direction: column;
-    gap: 30px; 
+    gap: 30px;
     padding: 50px;
-    background-color: #004d40;
+    background-color: #faf7f5;
+  }
+
+  .department-card {
+    background-color: white;
   }
 
   .core-values-section {
-    flex-direction: column; 
-    align-items: center;  
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
 
   .core-value-logo {
-    width: 150px; 
-    height: 150px; 
-    margin-bottom: 20px; 
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
   }
 
   .core-values-list {
@@ -347,13 +354,13 @@ body {
   }
 
   .value-item {
-    flex-direction: column; 
-    text-align: center;   
+    flex-direction: column;
+    text-align: center;
     padding: 20px;
   }
 
   .value-icon img {
-    width: 50px; 
+    width: 50px;
     height: 50px;
   }
 

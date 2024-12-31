@@ -317,6 +317,10 @@ p {
   border-radius: 15px;
 }
 
+.act-tulisan a {
+  text-decoration: none;
+}
+
 /* Button section */
 .more-button {
   margin-top: 30px;
