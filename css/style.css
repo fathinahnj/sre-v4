@@ -144,7 +144,7 @@ p {
 
 /* slider kedua */
 .about {
-  height: 100vh;
+  height: 200vh;
   background-color: #fbf8f3;
   background-size: cover;
   background-position: center;
@@ -163,15 +163,17 @@ p {
   justify-content: center;
 }
 
-.about-desc {
+.about-desc p {
+  position: relative;
+  /* Ensure it's positioned properly within the container */
+  margin-top: 20px;
   font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 40px;
+  /* font-weight: 400; */
   text-align: justify;
-  padding-top: 20px;
-  padding-left: 180px;
-  padding-right: 180px;
+  padding: 20px 180px 40px 180px;
   color: #174439;
+  z-index: 1000;
+  /* Bring it to the front if necessary */
 }
 
 .slider-container {
@@ -181,6 +183,7 @@ p {
   position: relative;
   overflow: hidden;
   border-radius: 15px;
+  z-index: 1;
 }
 
 .slides {
