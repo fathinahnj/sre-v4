@@ -407,6 +407,11 @@ p {
 
 .news-content a {
   color: #f8f8f8;
+  text-decoration: none;
+}
+
+.news-content h3:hover {
+  text-decoration: underline;
 }
 
 .news-category {
