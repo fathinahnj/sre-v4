@@ -553,6 +553,7 @@ p {
   }
 
   .recruitment-content {
+    width: 100%;
     font-size: 2.5em;
     margin-bottom: 20px;
   }
