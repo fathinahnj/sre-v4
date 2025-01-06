@@ -506,7 +506,6 @@ p {
 .contact-section {
   display: flex;
   justify-content: space-between;
-  /* Elemen di kiri dan kanan */
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 20px;
@@ -536,16 +535,14 @@ p {
   margin-bottom: 20px;
 }
 
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 10px;
-}
-
 .contact-item img {
   width: 25px;
   height: 25px;
+}
+
+
+.contact-item a {
+  color: #f5f5f5;
 }
 
 .footer-credit {
